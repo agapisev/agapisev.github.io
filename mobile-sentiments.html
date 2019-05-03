@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="author" content="Eleni Agapis">
+
+    <title>Eleni Agapis</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Krona+One" rel="stylesheet">
+
+    <link href="css/mobile/project-page.css" rel="stylesheet" type="text/css">
+
+    <style>
+      @font-face {
+        font-family: 'butlerlight';
+        src: url('butler_light-webfont.woff2') format('woff2'),
+           url('butler_light-webfont.woff') format('woff');
+        font-weight: lighter;
+        font-style: normal;
+      }
+    </style>
+  </head>
+
+  <header>
+
+    <div id="grey-box"></div>
+
+    <a href="mobile-index.html">
+      <div id="home">
+        <p>All<br>Projects</p>
+      </div>
+    </a>
+
+    <button id="showTop">
+      <p>Eleni Agapis</p>
+    </button>
+
+  </header>
+
+  <body>
+    <div class="everything" id="everything-s1">
+
+      <div class="about-menu">
+
+          <p><br><br><br><br><br>Design Director at
+            <a href="https://isometricstudio.com/" target="_blank">Isometric Studio</a></p>
+          <p>BFA in Graphic Design at the Maryland Institute College of Art</p>
+
+          <p><a href="mailto:agapisev@gmail.com">agapisev@gmail.com</a></p>
+          <p>Resumé</p>
+
+      </div>
+
+      <div class="horizontal-rule"></div>
+
+      <div class="content">
+
+        <img class="project-photo-pp-1" src="images/mobile/press-press/pp-words-1.svg">
+
+        <p class="project-title">Sentiments</p>
+
+        <div class="type">
+          <p class="project-type">2018</p><div class="little-space"></div><p class="project-type">Design &<br>Development</p>
+        </div>
+
+        <hr class="dividing-line">
+
+        <video class="project-photo" width="100%" autoplay="" loop="" muted="">
+              <source src="images/mobile/press-press/pp-video-1-looped-4.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+        </video>
+
+        <p class="project-description">
+          <a href="http://sentiments.press/index.html" target="_blank">Sentiments</a>
+          is the online companion to
+          <a href="http://presspress.info/" target="_blank">Press Press’</a>
+          publication of the same name, a collection of conversations, essays, and artists projects culminating in a manifesto for sanctuary building and keeping.
+        </p>
+
+        <div class="white-box-pp"><img class="project-photo-pp" src="images/mobile/press-press/pp-1.png"></div>
+        <div class="white-box-pp"><img class="project-photo-pp" src="images/mobile/press-press/pp-2.png"></div>
+        <div class="white-box-pp"><img class="project-photo-pp" src="images/mobile/press-press/pp-3.png"></div>
+        <img class="project-photo-pp-2" src="images/mobile/press-press/pp-words-2.svg">
+        <video class="project-photo" width="100%" autoplay="" loop="" muted="">
+              <source src="images/mobile/press-press/pp-video-2-looped-2.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+        </video>
+        <div class="white-box-pp"><img class="project-photo-pp" src="images/mobile/press-press/pp-4.png"></div>
+        <div class="white-box-pp"><img class="project-photo-pp" src="images/mobile/press-press/pp-5.png"></div>
+
+        <hr class="ending-line">
+
+      </div>
+
+    </div>
+
+
+
+
+    <script src="js/classie.js"></script>
+
+    <script data-require="jquery" data-semver="2.1.1" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script>
+
+        var menuTop = document.getElementById( 'everything-s1' ),
+    			  showTop = document.getElementById( 'showTop' ),
+      		  body = document.body;
+
+            showTop.onclick = function() {
+      				classie.toggle( this, 'active' );
+      				classie.toggle( menuTop, 'everything-open' );
+      				//disableOther( 'showTop' );
+      			};
+    </script>
+
+  </body>
+
+  </html>

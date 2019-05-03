@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="author" content="Eleni Agapis">
+
+    <title>Eleni Agapis</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Krona+One" rel="stylesheet">
+
+    <link href="css/mobile/mobile.css" rel="stylesheet" type="text/css">
+
+    <style>
+      @font-face {
+        font-family: 'butlerlight';
+        src: url('butler_light-webfont.woff2') format('woff2'),
+           url('butler_light-webfont.woff') format('woff');
+        font-weight: lighter;
+        font-style: normal;
+      }
+    </style>
+  </head>
+
+  <header>
+
+    <div id="grey-box"></div>
+
+    <button id="showTop">
+      <p>Eleni Agapis</p>
+    </button>
+
+  </header>
+
+  <body>
+    <div class="everything" id="everything-s1">
+
+      <div class="about-menu">
+
+          <p><br>Design Director at
+            <a href="https://isometricstudio.com/" target="_blank">Isometric Studio</a></p>
+          <p>BFA in Graphic Design at the Maryland Institute College of Art</p>
+
+          <p><a href="mailto:agapisev@gmail.com">agapisev@gmail.com</a></p>
+          <p>Resumé</p>
+
+      </div>
+
+      <div class="horizontal-rule"></div>
+
+      <div class="content">
+
+          <a href="mobile-spectacle.html">
+            <img class="project-photo" src="images/mobile/home/spectacle-cover.png">
+          </a>
+
+          <a href="mobile-spectacle.html">
+            <p class="project-title">Spectacle</p>
+          </a>
+          <div class="type">
+            <p class="project-type">2018</p><div class="little-space"></div><p class="project-type">Editorial<br>Design</p>
+          </div>
+
+          <hr class="dividing-line">
+
+          <a href="mobile-sentiments.html">
+            <video class="project-photo" width="100%" autoplay="" loop="" muted="">
+                  <source src="images/mobile/home/pp-cover.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+            </video>
+          </a>
+
+          <a href="mobile-sentiments.html">
+            <p class="project-title">Sentiments</p>
+          </a>
+          <div class="type">
+            <p class="project-type">2018</p><div class="little-space"></div><p class="project-type">Design &<br>Development</p>
+          </div>
+
+          <hr class="dividing-line">
+
+          <a href="mobile-avonbard.html">
+            <img class="project-photo" src="images/mobile/home/avon-cover.png">
+          </a>
+
+          <a href="mobile-avonbard.html">
+            <p class="project-title">Avon Bard</p>
+          </a>
+          <div class="type">
+            <p class="project-type">2018</p><div class="little-space"></div><p class="project-type">Editorial<br>Design</p>
+          </div>
+
+          <hr class="dividing-line">
+
+
+          <a href="mobile-misc.html">
+            <video class="project-photo" width="100%" autoplay="" loop="" muted="">
+                  <source src="images/mobile/home/misc-cover.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+            </video>
+          </a>
+
+          <a href="mobile-misc.html">
+            <p class="project-title">Misc.</p>
+          </a>
+          <div class="type">
+            <p class="project-type">2017–</p><div class="little-space"></div><p class="project-type">Odds & Ends &<br>Experiments</p>
+          </div>
+
+          <hr class="dividing-line">
+
+
+      </div>
+
+    </div>
+
+
+    <script src="js/classie.js"></script>
+
+    <script data-require="jquery" data-semver="2.1.1" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script>
+
+        var menuTop = document.getElementById( 'everything-s1' ),
+    			  showTop = document.getElementById( 'showTop' ),
+      		  body = document.body;
+
+            showTop.onclick = function() {
+      				classie.toggle( this, 'active' );
+      				classie.toggle( menuTop, 'everything-open' );
+      				//disableOther( 'showTop' );
+      			};
+    </script>
+
+  </body>
+
+  </html>
