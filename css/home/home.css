@@ -24,10 +24,10 @@ body {
 
 
 /* ------------- SHOW TOP ----------------- */
-#showTop {
+.name {
   position: fixed;
   z-index: 15;
-  top: 0px;
+  top: 5px;
   background: none;
   width: auto;
   left: 0;
@@ -35,13 +35,24 @@ body {
   height: 45px;
 }
 
-#showTop > p {
+.name > p {
   font-family: 'Krona One', sans-serif;
   font-size: 16px;
   color: #282828;
   line-height: 0px;
   text-align: left;
   margin-left: 14px;
+}
+
+#showTop {
+  position: fixed;
+  z-index: 15;
+  top: 1px;
+  background: none;
+  width: auto;
+  right: 0;
+  padding-right: 15px;
+  height: 45px;
 }
 
 .everything {
@@ -152,7 +163,7 @@ button:active {
 
 .right-column {
   position: fixed;
-  right: 25px;
+  right: 65px;
 }
 
 @media screen and (max-width: 930px) {
