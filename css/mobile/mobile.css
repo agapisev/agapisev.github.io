@@ -61,7 +61,7 @@ body {
 }
 
 .everything {
-  margin-top: 23px;
+  margin-top: 22px;
   position: absolute;
 }
 
@@ -118,7 +118,7 @@ button:active {
 	z-index: 14;
   height: auto;
   margin-top: -274px;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
 }
 
 .about-menu p {
@@ -140,7 +140,7 @@ button:active {
   background: #282828;
   position: fixed;
   margin-top: 2px;
-  padding-top: -36px;
+  padding-top: -40px;
   z-index: 100;
 
 }
