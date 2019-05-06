@@ -29,18 +29,18 @@ body {
   z-index: 10;
 }
 
-#showTop {
+.name {
   position: fixed;
   z-index: 15;
-  top: 0px;
-  background: #f2f2f2;
+  top: 5px;
+  background: none;
   width: auto;
   left: 0;
   padding-right: 15px;
   height: 45px;
 }
 
-#showTop > p {
+.name > p {
   font-family: 'Krona One', sans-serif;
   font-size: 16px;
   color: #282828;
@@ -49,8 +49,19 @@ body {
   margin-left: 14px;
 }
 
+#showTop {
+  position: fixed;
+  z-index: 15;
+  top: 1px;
+  background: none;
+  width: auto;
+  right: 0;
+  padding-right: 15px;
+  height: 45px;
+}
+
 .everything {
-  margin-top: 27px;
+  margin-top: 23px;
   position: absolute;
 }
 
@@ -129,7 +140,7 @@ button:active {
   background: #282828;
   position: fixed;
   margin-top: 2px;
-  padding-top: -40px;
+  padding-top: -36px;
   z-index: 100;
 
 }
