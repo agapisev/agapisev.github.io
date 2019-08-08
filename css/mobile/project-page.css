@@ -184,7 +184,7 @@ button:active {
 }
 
 .type {
-  margin-top: -72px;
+  margin-top: -67px;
 }
 
 .little-space {
@@ -273,4 +273,14 @@ hr.white-line {
 
 .misc-text {
   padding-top: 7px;
+}
+
+.hfnm-video-1 {
+  padding-left: 13px;
+  width: 90%;
+}
+
+.hfnm-video-2 {
+  width: 98%;
+  margin-left: 1%;
 }

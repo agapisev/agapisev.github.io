@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="author" content="Eleni Agapis">
+
+    <title>Eleni Agapis</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Krona+One" rel="stylesheet">
+
+    <link href="css/mobile/project-page.css" rel="stylesheet" type="text/css">
+
+    <style>
+      @font-face {
+        font-family: 'butlerlight';
+        src: url('butler_light-webfont.woff2') format('woff2'),
+           url('butler_light-webfont.woff') format('woff');
+        font-weight: lighter;
+        font-style: normal;
+      }
+    </style>
+  </head>
+
+  <header>
+
+    <div id="grey-box"></div>
+
+    <a href="mobile-index.html">
+      <div id="home">
+        <p>All<br>Projects</p>
+      </div>
+    </a>
+
+    <button id="showTop">
+      <p>Eleni Agapis</p>
+    </button>
+
+  </header>
+
+  <body>
+    <div class="everything" id="everything-s1">
+
+      <div class="about-menu">
+
+          <p><br><br><br><br><br>Design Director at
+            <a href="https://isometricstudio.com/" target="_blank">Isometric Studio</a></p>
+          <p>BFA in Graphic Design at the Maryland Institute College of Art</p>
+
+          <p><a href="mailto:agapisev@gmail.com">agapisev@gmail.com</a></p>
+          <p><a href="images/Eleni-Agapis-Resume.pdf" target="_blank">Resumé</a></p>
+
+      </div>
+
+      <div class="horizontal-rule"></div>
+
+      <div class="content">
+
+        <img class="project-photo" src="images/jigsaw/jigsaw1.png">
+
+        <p class="project-title">Rising</p>
+
+        <div class="type">
+          <p class="project-type">2019</p><div class="little-space"></div><p class="project-type">Exhibition<br>Design</p>
+        </div>
+
+        <p class="project-title">Together</p>
+
+        <hr class="dividing-line">
+
+        <img class="project-photo" src="images/jigsaw/jigsaw2.png">
+
+        <p class="project-description">Rogue is a hypothetical magazine combining aspects of tabloid journalism & sensational graphics with current American political news and events.</p>
+
+        <img class="project-photo" src="images/jigsaw/jigsaw3.png">
+        <img class="project-photo" src="images/jigsaw/jigsaw4.png">
+
+        <p class="project-description">Rogue is a hypothetical magazine combining aspects of tabloid journalism & sensational graphics with current American political news and events.</p>
+
+        <img class="project-photo" src="images/jigsaw/jigsaw5.png">
+        <img class="project-photo" src="images/jigsaw/jigsaw6.png">
+        <img class="project-photo" src="images/jigsaw/jigsaw7.png">
+        <img class="project-photo" src="images/jigsaw/jigsaw8.png">
+        <img class="project-photo" src="images/jigsaw/jigsaw9.png">
+        <img class="project-photo" src="images/jigsaw/jigsaw10.png">
+        <img class="project-photo" src="images/jigsaw/jigsaw11.png">
+        <img class="project-photo" src="images/jigsaw/jigsaw12.png">
+
+
+
+
+        <hr class="ending-line">
+
+      </div>
+
+    </div>
+
+
+
+
+    <script src="js/classie.js"></script>
+
+    <script data-require="jquery" data-semver="2.1.1" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script>
+
+        var menuTop = document.getElementById( 'everything-s1' ),
+    			  showTop = document.getElementById( 'showTop' ),
+      		  body = document.body;
+
+            showTop.onclick = function() {
+      				classie.toggle( this, 'active' );
+      				classie.toggle( menuTop, 'everything-open' );
+      				//disableOther( 'showTop' );
+      			};
+    </script>
+
+  </body>
+
+  </html>
