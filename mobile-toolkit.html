@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="author" content="Eleni Agapis">
+
+    <title>Eleni Agapis</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+
+    <link href="css/mobile/project-page.css" rel="stylesheet" type="text/css">
+
+    </style>
+  </head>
+
+  <header>
+
+    <div id="grey-box"></div>
+
+    <a href="mobile-index.html">
+      <div id="home">
+        <p>All<br>Projects</p>
+      </div>
+    </a>
+
+    <button id="showTop">
+      <p>Eleni Agapis</p>
+    </button>
+
+  </header>
+
+  <body>
+    <div class="everything" id="everything-s1">
+
+      <div class="about-menu">
+
+          <p><br><br><br><br><br>Opinion Design Fellow at
+          <a href="https://www.nytimes.com/section/opinion?pagetype=Homepage&action=click&module=Opinion" target="_blank">The New York Times</a></p>
+          <p>BFA in Graphic Design at the Maryland Institute College of Art</p>
+
+          <p><a href="mailto:agapisev@gmail.com">agapisev@gmail.com</a></p>
+          <p><a href="images/Eleni-Agapis-Resume.pdf" target="_blank">Resumé</a></p>
+
+      </div>
+
+      <div class="horizontal-rule"></div>
+
+      <div class="content">
+
+        <video class="project-photo" width="100%" autoplay="" loop="" muted="">
+              <source src="images/toolkit/toolkit-1.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+        </video>
+
+      <div class="project-header">
+        <p class="project-title p-t-hfnm">Toolkit</p>
+        <div class="type">
+          <p class="project-type">2020</p><div class="little-space"></div><p class="project-type">Design & Front End<br>Development</p>
+        </div>
+      </div>
+
+        <hr class="dividing-line">
+
+        <video class="project-photo" width="100%" autoplay="" loop="" muted="">
+              <source src="images/toolkit/toolkit-2.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+        </video>
+
+        <p class="project-description">The
+            <a href="https://toolkit.press/about.html" target="_blank">
+              Toolkit for Cooperative, Collective, and Collaborative Cultural Work</a>
+               is an online handbook developed and organized by
+            <a href="https://presspress.info/" target="_blank">Press Press</a>
+             and the
+            <a href="https://www.expandedresearch.org/" target="_blank">
+             Institute for Expanded Research</a>
+              to aid in the efforts of cultural organizers.</p>
+
+        <img class="project-photo" src="images/toolkit/toolkit-3.jpg">
+        <video class="project-photo" width="100%" autoplay="" loop="" muted="">
+              <source src="images/toolkit/toolkit-3.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+        </video>
+        <p class="project-description">Along with the Press Press & IER team, I developed Toolkit’s layout & visual design, in addition to executing all front end coding. </p>
+        <img class="project-photo" src="images/toolkit/toolkit-5.jpg">
+
+
+
+        <hr class="ending-line">
+
+      </div>
+
+    </div>
+
+
+
+
+    <script src="js/classie.js"></script>
+
+    <script data-require="jquery" data-semver="2.1.1" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script>
+
+        var menuTop = document.getElementById( 'everything-s1' ),
+    			  showTop = document.getElementById( 'showTop' ),
+      		  body = document.body;
+
+            showTop.onclick = function() {
+      				classie.toggle( this, 'active' );
+      				classie.toggle( menuTop, 'everything-open' );
+      				//disableOther( 'showTop' );
+      			};
+    </script>
+
+  </body>
+
+  </html>
