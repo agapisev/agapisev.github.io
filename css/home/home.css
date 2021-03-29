@@ -40,6 +40,10 @@ body {
   background: yellow; /* Gecko Browsers */
 }
 
+* {
+    -webkit-overflow-scrolling: touch;
+}
+
 /* ------------- MORE BUTTON ----------------- */
 
 .more {
