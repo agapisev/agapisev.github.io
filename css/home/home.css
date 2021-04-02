@@ -730,6 +730,10 @@ height: intrinsic;
   display: flex;
 }
 
+p#brand {
+    margin-right: 15px;
+}
+
 @media only screen and (min-width: 850px) {
   p#brand {
       margin-right: 15px;
@@ -743,6 +747,10 @@ height: intrinsic;
 @media only screen and (max-width: 850px) {
   p#web {
     margin-top: 7%;
+  }
+
+  p#brand {
+      margin-right: 0;
   }
 }
 
