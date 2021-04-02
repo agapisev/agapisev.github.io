@@ -34,10 +34,10 @@ body {
 }
 
 ::selection {
-  background: yellow; /* WebKit/Blink Browsers */
+  background: slategray; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: yellow; /* Gecko Browsers */
+  background: slategray; /* Gecko Browsers */
 }
 
 * {
@@ -62,7 +62,7 @@ body {
 .name {
   position: fixed;
   z-index: 15;
-  top: 30px;
+  top: 5px;
   background: none;
   width: auto;
   left: 0;
@@ -79,6 +79,11 @@ body {
     margin-top: 7px;
 }
 
+.name a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 850px) {
   .name > p {
     font-size: 18px;
@@ -89,12 +94,13 @@ body {
 #showTop {
   position: fixed;
   z-index: 15;
-  top: 26px;
   background: none;
   width: auto;
   right: 0;
   padding-right: 15px;
   height: 45px;
+  top: 1px;
+
 }
 
 .everything {
@@ -103,13 +109,13 @@ body {
 
 @media screen and (max-width: 850px) {
   .everything {
-    margin-top: -75px;
+    margin-top: -100px;
   }
 }
 
 
 .everything-open {
-  margin-top: 170px;
+  margin-top: 195px;
   position: relative;
 }
 
@@ -236,7 +242,7 @@ button:active {
 /* ------------- PROJECTS ----------------- */
 
 .content {
-  margin-top: -125px;
+  margin-top: -150px;
 display: flex;
 flex-wrap: nowrap;
 }
@@ -294,9 +300,21 @@ flex-wrap: nowrap;
     font-size: 15px;
     text-align: right;
     padding-right: 16px;
-    line-height: 1.65em;
-    color: #282828;
+    line-height: 1.2em;
     margin: 0;
+    margin-top: 3px;
+    color: #282828;
+
+        width: 20vw;
+}
+
+@media screen and (max-width: 850px) {
+  .project-type {
+    font-size: 13px;
+    line-height: 1.2em;
+    margin-top: 3px;
+    width: 40vw;
+  }
 }
 
 .space {
@@ -321,6 +339,17 @@ hr.dividing-line {
   width: 130px;
   margin-top: 90px;
   margin-bottom: 33px;
+}
+
+hr.small-line {
+  height: 1px;
+  color: #282828;
+  background: #f2f2f2;
+  font-size: 0;
+  border: 0;
+  width: 130px;
+  margin-top: 30px;
+  margin-bottom: 45px;
 }
 
 .project-photo {
@@ -385,6 +414,7 @@ hr.dividing-line {
   .project-description {
     font-size: 18px;
     width: 90%;
+        max-width: 600px;
   }
 }
 
@@ -500,9 +530,6 @@ height: intrinsic;
 }
 
 
-.project a {
-  color: #282828;
-}
 /* ------------- SCROLLING BUTTON ----------------- */
 
 
@@ -731,7 +758,7 @@ height: intrinsic;
 }
 
 @media only screen and (min-width: 850px) {
-  p#brand {
+  p#nyt {
       margin-right: 15px;
   }
 
@@ -748,4 +775,8 @@ height: intrinsic;
 
 p#close-filter {
     margin-bottom: 7%;
+}
+
+.big-space {
+  height: 50px;
 }
